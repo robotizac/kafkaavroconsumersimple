@@ -1,0 +1,17 @@
+{
+  "namespace": "com.andi",
+  "type" : "record",
+  "name": "Mmessage",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "doc": "uid of the message"
+    },
+    {
+      "name": "payload",
+      "type": "string",
+      "doc": "the data transferred"
+    }
+  ]
+}
